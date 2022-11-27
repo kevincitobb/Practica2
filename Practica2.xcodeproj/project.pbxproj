@@ -13,6 +13,11 @@
 		9B81D39C293328830019F07C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B81D39A293328830019F07C /* Main.storyboard */; };
 		9B81D39E293328840019F07C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81D39D293328840019F07C /* Assets.xcassets */; };
 		9B81D3A1293328840019F07C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B81D39F293328840019F07C /* LaunchScreen.storyboard */; };
+		9B81D3A929332AA50019F07C /* loud_bang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B81D3A829332AA50019F07C /* loud_bang.mp3 */; };
+		9B81D3AC29332ABC0019F07C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D3AB29332ABC0019F07C /* AVFoundation.framework */; };
+		9B81D3AE29332AC40019F07C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D3AD29332AC40019F07C /* MessageUI.framework */; };
+		9B81D3B029332ACB0019F07C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D3AF29332ACB0019F07C /* Messages.framework */; };
+		9B81D3B229332AD70019F07C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81D3B129332AD60019F07C /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9B81D39D293328840019F07C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B81D3A0293328840019F07C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B81D3A2293328840019F07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B81D3A829332AA50019F07C /* loud_bang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loud_bang.mp3; sourceTree = "<group>"; };
+		9B81D3AB29332ABC0019F07C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B81D3AD29332AC40019F07C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9B81D3AF29332ACB0019F07C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		9B81D3B129332AD60019F07C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B81D3AE29332AC40019F07C /* MessageUI.framework in Frameworks */,
+				9B81D3AC29332ABC0019F07C /* AVFoundation.framework in Frameworks */,
+				9B81D3B029332ACB0019F07C /* Messages.framework in Frameworks */,
+				9B81D3B229332AD70019F07C /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,7 @@
 			children = (
 				9B81D393293328830019F07C /* Practica2 */,
 				9B81D392293328830019F07C /* Products */,
+				9B81D3AA29332ABB0019F07C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +71,7 @@
 		9B81D393293328830019F07C /* Practica2 */ = {
 			isa = PBXGroup;
 			children = (
+				9B81D3A829332AA50019F07C /* loud_bang.mp3 */,
 				9B81D394293328830019F07C /* AppDelegate.swift */,
 				9B81D396293328830019F07C /* SceneDelegate.swift */,
 				9B81D398293328830019F07C /* ViewController.swift */,
@@ -65,6 +81,17 @@
 				9B81D3A2293328840019F07C /* Info.plist */,
 			);
 			path = Practica2;
+			sourceTree = "<group>";
+		};
+		9B81D3AA29332ABB0019F07C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B81D3B129332AD60019F07C /* CoreMotion.framework */,
+				9B81D3AF29332ACB0019F07C /* Messages.framework */,
+				9B81D3AD29332AC40019F07C /* MessageUI.framework */,
+				9B81D3AB29332ABC0019F07C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				9B81D3A1293328840019F07C /* LaunchScreen.storyboard in Resources */,
 				9B81D39E293328840019F07C /* Assets.xcassets in Resources */,
+				9B81D3A929332AA50019F07C /* loud_bang.mp3 in Resources */,
 				9B81D39C293328830019F07C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
